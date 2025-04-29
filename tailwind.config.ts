@@ -20,6 +20,12 @@ export default {
     },
     extend: {
       colors: {
+        // Adding the custom colors
+        maroon: "#8E1616",
+        coal: "#000000",
+        sand: "#E8C999",
+        cream: "#F8EEDF",
+        
         terminal: {
           bg: "#0D1117",
           text: "#E6EDF3",

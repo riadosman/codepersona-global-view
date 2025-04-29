@@ -4,6 +4,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 
 const Footer = () => {
   const { t, language } = useLanguage();
+  const currentYear = new Date().getFullYear();
   
   return (
     <footer className="border-t py-8 bg-background">
@@ -11,7 +12,7 @@ const Footer = () => {
         <div className={`flex flex-col md:flex-row justify-between items-center gap-4 ${language === 'ar' ? 'text-right' : ''}`} dir={language === 'ar' ? 'rtl' : 'ltr'}>
           <div>
             <p className="text-sm text-muted-foreground">
-              {t('footer.copyright')}
+              © {currentYear} Riad Osman. {t('footer.copyright')}
             </p>
           </div>
           

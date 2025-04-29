@@ -15,6 +15,7 @@ const ThemeToggle = () => {
       size="icon"
       onClick={toggleTheme}
       aria-label={theme === 'dark' ? t('theme.light') : t('theme.dark')}
+      className="text-maroon hover:text-maroon/80 hover:bg-sand/20"
     >
       {theme === 'dark' ? (
         <Sun className="h-5 w-5" />

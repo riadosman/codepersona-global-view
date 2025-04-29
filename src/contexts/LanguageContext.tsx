@@ -1,4 +1,3 @@
-
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
 export type Language = 'en' | 'ar' | 'tr';
@@ -19,11 +18,16 @@ const translations = {
     'nav.experience': 'Experience',
     'nav.contact': 'Contact',
     
+    // SEO
+    'seo.title': 'Full Stack Developer',
+    'seo.description': 'Riad Osman - A passionate full stack developer focused on creating elegant solutions to complex problems.',
+    'seo.keywords': 'Riad Osman, developer, full stack, web development, programmer, React, Node.js',
+    
     // Terminal
-    'terminal.welcome': 'Welcome to CodePersona v1.0.0',
+    'terminal.welcome': 'Welcome to Riad Osman\'s Portfolio v1.0.0',
     'terminal.greeting': 'Hello, I am a Full Stack Developer',
     'terminal.help': 'Type "help" to see available commands',
-    'terminal.commandPrompt': 'visitor@codepersona:~$',
+    'terminal.commandPrompt': 'visitor@riadosman:~$',
     'terminal.helpText': 'Available commands: about, skills, projects, experience, contact, theme, language',
     
     // About 
@@ -72,7 +76,7 @@ const translations = {
     'theme.dark': 'Dark',
     
     // Footer
-    'footer.copyright': '© 2025 CodePersona. All rights reserved.',
+    'footer.copyright': 'All rights reserved.',
     'footer.builtWith': 'Built with React & Tailwind',
   },
   ar: {
@@ -84,11 +88,16 @@ const translations = {
     'nav.experience': 'الخبرة',
     'nav.contact': 'اتصل بي',
     
+    // SEO
+    'seo.title': 'مطور الويب الشامل',
+    'seo.description': 'رياض عثمان - مطور شغوف بإنشاء حلول أنيقة للمشاكل المعقدة.',
+    'seo.keywords': 'رياض عثمان, مطور, مطور الويب الشامل, تطوير الويب, مبرمج, رياكت, نود جي اس',
+    
     // Terminal
-    'terminal.welcome': 'مرحبًا بك في CodePersona الإصدار 1.0.0',
+    'terminal.welcome': 'مرحبًا بك في موقع رياض عثمان الإصدار 1.0.0',
     'terminal.greeting': 'مرحبًا، أنا مطور الويب الكامل',
     'terminal.help': 'اكتب "help" لمشاهدة الأوامر المتاحة',
-    'terminal.commandPrompt': 'زائر@codepersona:~$',
+    'terminal.commandPrompt': 'زائر@riadosman:~$',
     'terminal.helpText': 'الأوامر المتاحة: about، skills، projects، experience، contact، theme، language',
     
     // About
@@ -149,11 +158,16 @@ const translations = {
     'nav.experience': 'Deneyim',
     'nav.contact': 'İletişim',
     
+    // SEO
+    'seo.title': 'Full Stack Geliştirici',
+    'seo.description': 'Riad Osman - Karmaşık sorunlara zarif çözümler yaratmayı seven tutkulu bir geliştirici.',
+    'seo.keywords': 'Riad Osman, geliştirici, full stack, web geliştirme, programcı, React, Node.js',
+    
     // Terminal
-    'terminal.welcome': 'CodePersona v1.0.0\'a Hoş Geldiniz',
+    'terminal.welcome': 'Riad Osman\'ın Portfolyosuna Hoş Geldiniz v1.0.0',
     'terminal.greeting': 'Merhaba, Ben Full Stack Geliştiriciyim',
     'terminal.help': 'Kullanılabilir komutları görmek için "help" yazın',
-    'terminal.commandPrompt': 'ziyaretçi@codepersona:~$',
+    'terminal.commandPrompt': 'ziyaretçi@riadosman:~$',
     'terminal.helpText': 'Kullanılabilir komutlar: about, skills, projects, experience, contact, theme, language',
     
     // About
