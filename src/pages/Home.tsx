@@ -10,10 +10,12 @@ import ExperienceSection from '@/components/ExperienceSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { useIsMobile } from '@/hooks/use-mobile';
 
 const Home = () => {
   const { language, t } = useLanguage();
+  const { theme } = useTheme();
   const [activeSection, setActiveSection] = useState<string | null>(null);
   const isMobile = useIsMobile();
 
